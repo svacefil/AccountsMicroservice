@@ -1,0 +1,16 @@
+spring:
+  config:
+    activate:
+      on-profile: "prod"
+
+build:
+  version: "1.0"
+
+accounts:
+  message: "Welcome to walrus accounts. This is production"
+  contactDetails:
+    name: "Walrus Svenson"
+    email: "walrus@osada.cz"
+  callSupport:
+    - 666420690
+    - 420696666
